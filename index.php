@@ -17,7 +17,7 @@
     <br />
     <div class="center ink-primary base-light size-xl">Search</div>
     <br />
-    <form action="/find" method="GET" class="center-col" style="width:100%">
+    <form action="/find.php" method="GET" class="center-col" style="width:100%">
         <input placeholder="Word" id="inp" name="text">
         <input type="submit" style="display: none;" id="send" placeholder="Send">
         <label for="send" style="width:7rem;margin-top:0.5rem" class="center">

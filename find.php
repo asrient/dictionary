@@ -62,7 +62,7 @@ for($x = 0; $x < count($data); $x++) {
             if(isset($mean[$z]->text)){
              echo '<div class="meaning"><span class="ink-primary">';
                  echo $y+1;
-                 echo '.</span>&nbsp;<a href="/find?text=';
+                 echo '.</span>&nbsp;<a href="/find.php?text=';
                  echo $mean[$z]->text.'">';
             echo $mean[$z]->text;
             echo '</a></div>&nbsp;&nbsp;';
